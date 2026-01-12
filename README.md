@@ -29,6 +29,15 @@ It’s designed as a **learning project** to explore **clean plugin architecture
 **`helmets.yml`** example:
 
 ```yaml
+# Helmets Configuration
+# Each key is a unique helmet ID (used internally and for permissions)
+# The base64 value is from minecraft-heads.com
+
+# name: "Example" - Display name (Supports mini-message)
+# price: 100.0 - Price in-game
+# permission-only: true/false - If only unlocked via permissions such as chelmets.helmet.<ID>
+# texture: texture value from minecraft-heads.com
+
 samurai_snow:
   name: "<aqua><!i>Sorrowful Snow Samurai"
   price: 500.0
