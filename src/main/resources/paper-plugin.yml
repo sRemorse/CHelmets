@@ -1,4 +1,7 @@
 name: CHelmets
 version: '1.0-SNAPSHOT'
 main: com.remorse.cHelmets.CHelmets
+description: Introduce cosmetic helmets that can be worn over armour.
+author: sRemorse
+website: https://github.com/sRemorse/CHelmets
 api-version: '1.21'
