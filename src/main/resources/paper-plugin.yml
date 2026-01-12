@@ -5,3 +5,8 @@ description: Introduce cosmetic helmets that can be worn over armour.
 author: sRemorse
 website: https://github.com/sRemorse/CHelmets
 api-version: '1.21'
+dependencies:
+  server:
+    Vault:
+      load: BEFORE
+      required: true
